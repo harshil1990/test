@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: ip address 
+        run: ip address; uname -a; free -a; df -kh; ip link add dummy0 type dummy; ip add 
