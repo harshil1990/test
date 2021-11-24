@@ -40,4 +40,6 @@ jobs:
         run: ip link add dummy0 type dummy
       - name: run
         run: ip add 
+      - name: run
+        run: apt-get install tcpdump
       
