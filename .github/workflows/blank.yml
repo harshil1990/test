@@ -31,7 +31,7 @@ jobs:
       - name: Run a one-line script
         run: uname -a
       - name: run
-        run: free -a
+        run: free
       - name: run
         run: df -kh
       - name: run
