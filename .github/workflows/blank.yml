@@ -27,19 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: ip address
-      - name: Run a one-line script
-        run: uname -a
-      - name: run
-        run: free
-      - name: run
-        run: df -kh
-      - name: run
-        run: ip route 
-      - name: run
-        run: ip link add dummy0 type dummy
-      - name: run
-        run: ip add 
-      - name: run
+        
         run: apt-get install tcpdump
       
