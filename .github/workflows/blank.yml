@@ -28,5 +28,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         
-        run: apt-get install tcpdump
-      
+        run: sudo apt-get install tcpdump
+      - name: run
+        run: sudo ip link add dummy0 type dummy
